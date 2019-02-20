@@ -1,0 +1,44 @@
+<html>
+    <head>
+<title>pranay</title>
+<body>
+
+   </body>
+   
+   <div class="top-header" id="home" style="width:100%; position:fixed; z-index:999; background-color: rgba(0,0,0,0.3);&#10;  color: white;margin:0px; padding:15px;">
+	 
+        <!-- <div class="logo">
+               <h1><a href="index.html">Emplox</a></h1>
+               <img src='images/pic2.jpg'>
+        </div> -->
+        <!--<div class="logo"><img src='images/banner.jpg' alt="html5icon" style="z-index:999; height:75px; width:75px; "></div>-->
+
+        <div class="top-menu">
+            <span class="menu"></span>
+            <ul>
+               <li><a class="scroll" href="#head1">Home</a></li>
+               <li><a class="scroll" href="#skill">Skills</a></li>
+               
+               
+               <li><a class="scroll" href="#service">Projects</a></li>
+               <!--<li><a class="scroll" href="#about">About</a></li>-->
+               <li><a class="scroll" href="#experience">Education</a></li>
+               <li><a class="scroll" href="#gallery">Interests</a></li>
+               <li><a class="scroll" href="#contact">Contact</a></li>
+            </ul>
+            <!-- script-for-menu -->
+                <script>					
+                           $("span.menu").click(function(){
+                               $(".top-menu ul").slideToggle("slow" , function(){
+                               });
+                           });
+                </script>
+            <!-- script-for-menu -->
+         </div>
+    </div>
+
+
+
+
+</body>
+</html>
